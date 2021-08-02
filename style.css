@@ -1,0 +1,66 @@
+@import
+  
+#main{
+  color: black;
+  background-color: silver;
+  text-align: center;
+  font-family: "Papyrus", Fantasy;
+ 
+}
+#title{
+  background-color: silver;
+  text-align: center;
+  color: black;
+  font-family: "Papyrus", Fantasy;
+}
+  #page
+  {
+    background-color: #eee;
+    text-align:center;
+    font-family: "Papyrus", Fantasy;
+    
+    
+  }
+  #image{
+   
+    max-width: 550px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+   
+    
+  }
+ul{
+  text-align:left;
+  list-style-position:inside;
+  font-family: "Papyrus", Fantasy;
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  line-height: 1.4;
+  font-size: 1.4rem;
+  
+}
+#img-div{
+  width: 100%;
+  background-color: #eee;
+  
+  opacity: 1;
+  
+}
+#img-caption{
+  background-color: #eee;
+  margin: 15px 0 5px 0;
+}
+#tribute-info{
+  font-size: 1.4rem;
+  line-height: 1.5;
+  text-align: center;
+  color: #333;
+  margin: 0;
+}
+#tribute-link{
+  
+}
+
+  
