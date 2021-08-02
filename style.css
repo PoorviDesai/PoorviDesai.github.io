@@ -1,66 +1,72 @@
 @import
   
-#main{
-  color: black;
-  background-color: silver;
+  #main-doc{
+    font-size: 20px;
+    '''margin: 50px 330px auto auto;
+    margin-left: -10px;
+} 
+
+#headr{
+  font-size: 40px;
   text-align: center;
-  font-family: "Papyrus", Fantasy;
- 
-}
-#title{
-  background-color: silver;
-  text-align: center;
-  color: black;
-  font-family: "Papyrus", Fantasy;
-}
-  #page
-  {
-    background-color: #eee;
-    text-align:center;
-    font-family: "Papyrus", Fantasy;
-    
-    
-  }
-  #image{
-   
-    max-width: 550px;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-   
-    
-  }
-ul{
-  text-align:left;
-  list-style-position:inside;
-  font-family: "Papyrus", Fantasy;
-  max-width: 550px;
-  margin: 0 auto 50px auto;
-  line-height: 1.4;
-  font-size: 1.4rem;
+  
   
 }
-#img-div{
-  width: 100%;
-  background-color: #eee;
+#navbar{
+  position: fixed;
+  height: 100%;
+  text-align: left;
+  top: 0px;
+  left: 0px;
+  border-right: solid;
+  width: 330px;
+  z-index: 1;
   
-  opacity: 1;
-  
 }
-#img-caption{
-  background-color: #eee;
-  margin: 15px 0 5px 0;
+#navbar a{
+  text-decoration: none;
+  padding: 10px 30px;
 }
-#tribute-info{
-  font-size: 1.4rem;
-  line-height: 1.5;
-  text-align: center;
-  color: #333;
-  margin: 0;
-}
-#tribute-link{
+#navbar ul{
+  width: 330px;
+  text-align: left;
+  padding: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
   
 }
 
+#navbar li{
+  list-style-type: none;
+  font-size: 20px;
+  padding: 10px;
+  border-top: 1px solid;
+  margin-left: 0px;
+  width: 100%;
+  position: relative;
   
+  
+}
+@media
+#all{
+  
+}
+
+.main-section{
+  position: relative;
+}
+
+.nav-link{
+  
+}
+
+#main-doc header{
+  font-size: 40px;
+  text-align: left;
+}
+#Introduction, What_You_Should_Already_Know, JavaScript_and_Java, Hello_World, Variables, Declaring_Variables, Variables_Scope, Global_Variables, Constants, Data_Types, if..else_Statements, While_Statements, Function_Declarations, Reference
+{
+    font-size: 40px;
+    text-align: left;
+}
